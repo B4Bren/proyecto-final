@@ -3,8 +3,6 @@ document.getElementById("defaultOpen").click();
 function openActividad(event, actividad){
     var i, tabcontent, tablinks;
 
-    
-
     tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tabcontent.length; i++){
         tabcontent[i].style.display = "none";

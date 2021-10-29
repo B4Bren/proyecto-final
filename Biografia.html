@@ -17,9 +17,9 @@
         <h2> Introducción al Desarrollo Web </h2>
         <nav> 
             <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="Biografia.html">Biografia</a></li>
-                <li><a href="Galeria.html">Galeria</a></li>
+                <li id="home" class="tabnav" onclick="navBar(evt)"><a href="index.html">Inicio</a></li>
+                <li class="tabnav" onclick="navBar(evt)"><a href="Biografia.html">Biografia</a></li>
+                <li class="tabnav" onclick="navBar(evt)"><a href="Galeria.html">Galeria</a></li>
             </ul>
         </nav>
     </header>
@@ -27,14 +27,52 @@
         <img src="Imagenes/biografia/Yo.png" alt="Mejer colocha blusa blanca seria">
         <div id="texto">
             <h2>biografia</h2>
-            <p id="intro">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
-                Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, 
-                ultricies nec, pellentesque eu, pretium quis, sem.</p>
-            <p id="mas">Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, 
-                rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. 
-                Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, 
-                enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,</p>
-            <button id="boton">Ver mas<i class="fas fa-chevron-down"></i></button>
+            <H3>Brenda Villalobos Arias</H3>
+            <p id="intro">Cinco años de experiencia en Diseño de Experiencia de Usuario, Design Thinking y como facilitador de Design Sprints. 
+                Me encanta innovar y utilizar la co-creacion para ayudar a las organizaciones a crear productos. Con experiencia en la creación 
+                y facilitación de talleres enfocados personalizados.</p>
+            <div id="mas">
+                <h3>Experiencia Laboral</h3>
+                <div id="experiencia1">
+                    <h4>Líder de UX en Creative Drive, San José</h4>
+                    <h5>Octubre de 2020 - actualidad</h5>
+                    <h6>Principales responsabilidades</h6>
+                    <ul>
+                        <li>Trabajar en estrecha colaboración con los tomadores de decisiones y las partes interesadas para comprender los objetivos comerciales y determinar el alcance del proyecto y la estrategia de diseño.</li>
+                        <li>Liderar la investigación y el diseño desde la ideación hasta el diseño del wireframe y las pruebas de usuario.</li>
+                        <li>Diseñar arquitectura de información y entregables de prototipos incrementales para sitios web y aplicaciones receptivos, utilizando prácticas ágiles.</li>
+                        <li>Facilitar talleres y sesiones de mapeo de alcance.</li>
+                    </ul>
+                    <hr />
+                </div>
+                <div id="experiencia2">
+                    <h4>Consultor en Novacomp, San Jose</h4>
+                    <h5>Mayo de 2020 - octubre de 2020</h5>
+                    <h6>Principales responsabilidades</h6>
+                    <ul>
+                        <li>Trabajar en estrecha colaboración con los tomadores de decisiones y las partes interesadas para comprender los objetivos comerciales y determinar el alcance del proyecto y la estrategia de diseño.</li>
+                        <li>Formular y realizar una investigación de usuarios</li>
+                        <li>Soluciones digitales definidas y diseñadas (incluyendo arquitectura, prototipos interactivos e interfaces de usuario) que contribuyeron a la transformación digital de las instituciones financieras.</li>
+                        <li>Procesos complejos transformados en experiencias de usuario intuitivas y bien diseñadas.</li>
+                        <li>Mentoria del equipo de UX / UI.</li>
+                    </ul>
+                    <hr />
+                </div>
+                <div id="experiencia3">
+                    <h4>Diseñador UX en Creative Drive, San José</h4>
+                    <h5>Agosto de 2018 - mayo de 2020</h5>
+                    <h6>Principales responsabilidades</h6>
+                    <ul>
+                        <li>Mejora de la navegación del sitio web y las experiencias de los clientes en línea, lo que se traduce en mayores ventas para los clientes.</li>
+                        <li>Realizar investigación de usuarios y benchmarking para nuevos productos.</li>
+                        <li>Creación de recursos como el recorrido del cliente, guiones gráficos, flujos de estructura metálica y diagramas de arquitectura.</li>
+                        <li>Soluciones digitales ideadas y diseñadas para experiencias omnicanal.</li>
+                        <li>Crear soluciones digitales para dispositivos en tienda como quioscos, estaciones de autopago y otros puntos de venta.</li>
+                        <li>Experimentar y desarrollar soluciones utilizando tecnologías  alternativas en nuestro laboratorio de innovación para minimizar las interrupciones en los POS.</li>
+                </div>
+            </div>
+           
+            <button id="boton">Ver mas</button>
             
         </div>
     </div>
@@ -50,6 +88,7 @@
         </ul>
     </footer>
     <script src="scripts/toggle.js"></script>
+    <script src="scripts/nav.js"></script>
     
 </body>
 </html>

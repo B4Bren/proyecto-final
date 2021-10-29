@@ -52,20 +52,19 @@ nav li{
     font-size: 1.3em;
 }
 
-a{
+nav a{
     text-decoration: none;
     color: #213147;
     font-weight: 600;
 }
 
-a:hover{
-    color: #8E3B46;
+nav a:hover{
+    color: #E68480;
     text-decoration: underline;
 }
 
-a:visited{
-    color: #213147;
-    
+nav a:active{
+    color: #8E3B46;   
 }
 /*PRIMERA SECCION*/
 #loAprendido{
@@ -95,6 +94,9 @@ a:visited{
 }
 #listas h2{
     padding-left: 24px;
+}
+#listas li{
+    padding-bottom: 4px;
 }
 #pandemia h2{
     color: #E68480;
@@ -163,25 +165,57 @@ footer p{
     width: 200px;
     height: 200px ;
     margin-right: 40px;
-    margin-left: 10%;
+    margin-left: 15%;
 }
 #texto{
-    margin-right: 10%;
+    margin-right: 15%;
 }
 #bio button{
     background-color: #55A7F8 ;
     border-radius: 4px;
-    width: 300px;
-    height: 56px;
+    width: 200px;
+    height: 46px;
     font-size: 20px;
     line-height: 28px;
     font-weight: 600;
     color:#213147;
     text-transform: uppercase;
     border: none;  
+    margin-bottom: 80px;
 }
-#bio i{
-    padding-left: 16px;
+#bio h3{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    color: #8E3B46;
+}
+#bio h4{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #213147;
+    margin: 24px 0 4px 0;
+}
+#bio h5{
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #374A5E;
+    margin: 4px 0 4px 0;
+}
+#bio ul{
+    margin-bottom: 32px;
+    list-style: circle;
+}
+#bio h6{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #0B1016;
+    margin: 4px 0 4px 0;
+}
+#bio li{
+    margin-bottom: 4px;
 }
 #mas{
     display: none;
@@ -214,6 +248,17 @@ footer p{
 .tabcontent img{
     max-width: 300px;
     width: 22%;
-    max-height: 300px;
+    height: auto;
     margin: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 00.3s;
 }
+.tabcontent img:hover{
+    transform: scale(1.2);
+
+}
+
+
+ 
+
