@@ -1,0 +1,219 @@
+body{
+    max-width:1280px;
+    text-align: auto;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    color: #213147;
+    font-size: 36px;
+    line-height: 52px;
+    text-transform: uppercase;
+}
+p{
+    color: #374A5E;
+    font-size: 16px;
+    line-height: 24px;
+}
+h2{
+    color: #213147;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+}
+/*INICIO*/
+/*HEADER*/
+header{
+    background-color: #ADDCFF;
+    height: 100px;
+    display: flex;
+    width: 100%;
+    z-index: 50;
+    max-width: 1280px;
+}
+header img{
+    width: 112px;
+    height: 60px;
+    margin: 16px;
+    float: left;
+}
+header h2{
+    margin-left: 24px;
+    margin-right: auto;
+    padding: 24px;
+}
+nav{
+    margin-right: 5%;
+    padding-top: 2em;
+}
+nav li{
+    display: inline;
+    padding-left: 24px;
+    font-size: 1.3em;
+}
+
+a{
+    text-decoration: none;
+    color: #213147;
+    font-weight: 600;
+}
+
+a:hover{
+    color: #8E3B46;
+    text-decoration: underline;
+}
+
+a:visited{
+    color: #213147;
+    
+}
+/*PRIMERA SECCION*/
+#loAprendido{
+    overflow: auto;
+    display: flex;
+}
+#loAprendido h1{
+    padding: 2.5em 32px 2.5em 10%;
+    width: 25%;
+}
+#loAprendido p{
+    width: 55%;
+    padding: 2.5em 10% 2.5em 20px;
+    line-height: 1.8em;
+}
+#pandemia{
+    background-color: #213147;
+    color: #fff;
+    width: 48%;
+    padding: 16px;
+}
+/*SECCION 2*/
+#listas{
+    display: flex;
+    overflow: auto;
+    margin-bottom: 100px;
+}
+#listas h2{
+    padding-left: 24px;
+}
+#pandemia h2{
+    color: #E68480;
+}
+#pandemia ul{
+    list-style: none;
+}
+#pandemia ul li::before{
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #E68480; /* Change the color */
+    font-weight: 800; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+#Hobbies{
+    background-color: #ADDCFF;
+    width: 48%;
+    padding: 16px;
+}
+#Hobbies ul{
+    list-style: none;
+}
+#Hobbies ul li::before{
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #213147; /* Change the color */
+    font-weight: 800; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+/*FOOTER*/
+footer {
+    display: flex;
+    background-color: #0B1016;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    max-width: 1280px;
+}
+footer p{
+    color: #fff;
+    font-size: 12px;
+    padding-left: 5%;
+}
+#redesSociales a{
+    color: #fff;
+}
+
+#redesSociales li {
+    display: inline;
+    padding-left: 16px;
+    float: right;
+    font-size: 16px;
+}
+
+/*BIOGRAFIA*/
+#bio{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    overflow: auto;
+}
+#bio img{
+    width: 200px;
+    height: 200px ;
+    margin-right: 40px;
+    margin-left: 10%;
+}
+#texto{
+    margin-right: 10%;
+}
+#bio button{
+    background-color: #55A7F8 ;
+    border-radius: 4px;
+    width: 300px;
+    height: 56px;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+    color:#213147;
+    text-transform: uppercase;
+    border: none;  
+}
+#bio i{
+    padding-left: 16px;
+}
+#mas{
+    display: none;
+}
+/*TABS*/
+#tab{
+    overflow: hidden;
+    background-color: #EBEBEB;
+}
+#tab button{
+    background-color: #848F9A;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+#tab button:hover{
+    background-color:#E68480;
+}
+#tab button.active{
+    background-color: #8E3B46;
+    color: #fff;
+}
+.tabcontent{
+    display: none;
+    margin-top: 40px;
+}
+.tabcontent img{
+    max-width: 300px;
+    width: 22%;
+    max-height: 300px;
+    margin: 16px;
+}

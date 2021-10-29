@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Final</title>
+    <script src="https://kit.fontawesome.com/6340404278.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="Imagenes/home/logoWatt.png" alt="Logo Programa WATT">
+        <h2> Introducción al Desarrollo Web </h2>
+        <nav> 
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="Biografia.html">Biografia</a></li>
+                <li><a href="Galeria.html">Galeria</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="galeria">
+        <div id="tab">
+            <button class="tabslinks" onclick="openActividad(event, 'cocina')" id="defaultOpen">Cocina</button>
+            <button class="tabslinks" onclick="openActividad(event, 'paqui')">Mascota</button>
+            <button class="tabslinks" onclick="openActividad(event, 'nature')">Naturaleza</button>
+        </div>
+        <div id="cocina" class="tabcontent">
+            <img src="Imagenes/Food/Food 1.png" alt="">
+            <img src="Imagenes/Food/Food 2.png" alt="">
+            <img src="Imagenes/Food/Food 3.png" alt="">
+            <img src="Imagenes/Food/Food 4.png" alt="">
+            <img src="Imagenes/Food/Food 5.png" alt="">
+            <img src="Imagenes/Food/Food 6.png" alt="">
+            <img src="Imagenes/Food/Food 7.png" alt="">
+            <img src="Imagenes/Food/Food 9.png" alt="">
+        </div>
+        <div id="paqui" class="tabcontent">
+            <img src="Imagenes/Paqui/Paqui 1.png" alt="">
+            <img src="Imagenes/Paqui/Paqui 2.png" alt="">
+            <img src="Imagenes/Paqui/Paqui 3.png" alt="">
+            <img src="Imagenes/Paqui/Paqui 4.png" alt="">
+            <img src="Imagenes/Paqui/Paqui 5.png" alt="">
+            <img src="Imagenes/Paqui/Paqui 6.png" alt="">
+            <img src="Imagenes/Paqui/Paqui 7.png" alt="">
+        </div>
+        <div id="nature" class="tabcontent">
+            <img src="Imagenes/Nature/Nature 1.png" alt="">
+            <img src="Imagenes/Nature/Nature 2.png" alt="">
+            <img src="Imagenes/Nature/Nature 3.png" alt="">
+            <img src="Imagenes/Nature/Nature 4.png" alt="">
+            <img src="Imagenes/Nature/Nature 5.png" alt="">
+            <img src="Imagenes/Nature/Nature 6.png" alt="">
+            <img src="Imagenes/Nature/Nature 7.png" alt="">
+            <img src="Imagenes/Nature/Nature 8.png" alt="">
+            <img src="Imagenes/Nature/Nature 9.png" alt="">
+        </div>
+    </div>
+
+
+    
+    <footer>
+        <p> &#169; 2021 Hecho por Brenda Villalobos</p>
+        <ul id="redesSociales">
+            <li><a href=https://www.instagram.com/brenvilla14><i class="fab fa-instagram-square"></i></a></li>
+            <li><a href=https://www.linkedin.com/in/brendavillalobos14><i class="fab fa-linkedin"></i></a></li>
+            <li><a href=https://www.brenvillalobos.com><i class="fas fa-globe"></i></a></li>
+        </ul>
+    </footer>
+
+    <script src="scripts/galeria.js"></script>
+    
+</body>
+</html>
