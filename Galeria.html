@@ -17,51 +17,49 @@
         <h2> Introducción al Desarrollo Web </h2>
         <nav> 
             <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="Biografia.html">Biografia</a></li>
-                <li><a href="Galeria.html">Galeria</a></li>
+                <li id="home" class="tabnav" onclick="navBar(evt)"><a href="index.html">Inicio</a></li>
+                <li class="tabnav" onclick="navBar(evt)"><a href="Biografia.html">Biografia</a></li>
+                <li class="tabnav" onclick="navBar(evt)"><a href="Galeria.html">Galeria</a></li>
             </ul>
         </nav>
     </header>
     <div id="galeria">
         <div id="tab">
-            <button class="tabslinks" onclick="openActividad(event, 'cocina')" id="defaultOpen">Cocina</button>
-            <button class="tabslinks" onclick="openActividad(event, 'paqui')">Mascota</button>
-            <button class="tabslinks" onclick="openActividad(event, 'nature')">Naturaleza</button>
+            <button class="tablinks" onclick="openActividad(event, 'cocina')" id="defaultOpen">Cocina</button>
+            <button class="tablinks" onclick="openActividad(event, 'paqui')">Mascota</button>
+            <button class="tablinks" onclick="openActividad(event, 'nature')">Naturaleza</button>
         </div>
         <div id="cocina" class="tabcontent">
-            <img src="Imagenes/Food/Food 1.png" alt="">
-            <img src="Imagenes/Food/Food 2.png" alt="">
-            <img src="Imagenes/Food/Food 3.png" alt="">
-            <img src="Imagenes/Food/Food 4.png" alt="">
-            <img src="Imagenes/Food/Food 5.png" alt="">
-            <img src="Imagenes/Food/Food 6.png" alt="">
-            <img src="Imagenes/Food/Food 7.png" alt="">
-            <img src="Imagenes/Food/Food 9.png" alt="">
+            <img src="Imagenes/Food/Food 1.png" alt="Crossants">
+            <img src="Imagenes/Food/Food 2.png" alt="Tartaleta de cereza">
+            <img src="Imagenes/Food/Food 3.png" alt="Figura de masa goma de ratatuil">
+            <img src="Imagenes/Food/Food 4.png" alt="Galleta de araña">
+            <img src="Imagenes/Food/Food 5.png" alt="Cream brule">
+            <img src="Imagenes/Food/Food 6.png" alt="Rizotto con salmon">
+            <img src="Imagenes/Food/Food 7.png" alt="Queque de chocolate">
+            <img src="Imagenes/Food/Food 9.png" alt="Rollos de canela">
         </div>
         <div id="paqui" class="tabcontent">
-            <img src="Imagenes/Paqui/Paqui 1.png" alt="">
-            <img src="Imagenes/Paqui/Paqui 2.png" alt="">
-            <img src="Imagenes/Paqui/Paqui 3.png" alt="">
-            <img src="Imagenes/Paqui/Paqui 4.png" alt="">
-            <img src="Imagenes/Paqui/Paqui 5.png" alt="">
-            <img src="Imagenes/Paqui/Paqui 6.png" alt="">
-            <img src="Imagenes/Paqui/Paqui 7.png" alt="">
+            <img src="Imagenes/Paqui/Paqui 1.png" alt="Paqui con el volcan arenal">
+            <img src="Imagenes/Paqui/Paqui 2.png" alt="Close up de Paqui">
+            <img src="Imagenes/Paqui/Paqui 3.png" alt="Paqui feliz comiendo hielo">
+            <img src="Imagenes/Paqui/Paqui 4.png" alt="Paqui mirando hacia arriba">
+            <img src="Imagenes/Paqui/Paqui 5.png" alt="Paqui muy serio">
+            <img src="Imagenes/Paqui/Paqui 6.png" alt="Paqui bebe con la lengua afuera">
+            <img src="Imagenes/Paqui/Paqui 7.png" alt="Paqui bebe con chechera roja">
         </div>
         <div id="nature" class="tabcontent">
-            <img src="Imagenes/Nature/Nature 1.png" alt="">
-            <img src="Imagenes/Nature/Nature 2.png" alt="">
-            <img src="Imagenes/Nature/Nature 3.png" alt="">
-            <img src="Imagenes/Nature/Nature 4.png" alt="">
-            <img src="Imagenes/Nature/Nature 5.png" alt="">
-            <img src="Imagenes/Nature/Nature 6.png" alt="">
-            <img src="Imagenes/Nature/Nature 7.png" alt="">
-            <img src="Imagenes/Nature/Nature 8.png" alt="">
-            <img src="Imagenes/Nature/Nature 9.png" alt="">
+            <img src="Imagenes/Nature/Nature 1.png" alt="Punteranas">
+            <img src="Imagenes/Nature/Nature 2.png" alt="Catarada Bajos del Toro Amarillo">
+            <img src="Imagenes/Nature/Nature 3.png" alt="Cataratara Pozo Azul">
+            <img src="Imagenes/Nature/Nature 4.png" alt="Cañon de curubande">
+            <img src="Imagenes/Nature/Nature 5.png" alt="Playas del coco">
+            <img src="Imagenes/Nature/Nature 6.png" alt="Catarata Llanos de Cortez">
+            <img src="Imagenes/Nature/Nature 7.png" alt="Catarata Llanos de Cortez">
+            <img src="Imagenes/Nature/Nature 8.png" alt="Bajos del Toro">
+            <img src="Imagenes/Nature/Nature 9.png" alt="Crater la hoya">
         </div>
     </div>
-
-
     
     <footer>
         <p> &#169; 2021 Hecho por Brenda Villalobos</p>
@@ -73,6 +71,7 @@
     </footer>
 
     <script src="scripts/galeria.js"></script>
+    <script src="scripts/nav.js"></script>
     
 </body>
 </html>
