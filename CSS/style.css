@@ -63,7 +63,7 @@ nav a:hover{
     text-decoration: underline;
 }
 
-nav a:active{
+nav li.active a{
     color: #8E3B46;   
 }
 /*PRIMERA SECCION*/
